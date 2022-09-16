@@ -12,6 +12,17 @@ module.exports = {
         'foreground-darker': '#71C9CE',
         'highlight': '#FFD369',
       }
+      ,keyframes: {
+        click: {
+          "0%,100%": { transform: "scale(1.1)",
+
+          },
+          "50%": { transform: "scale(1.05)" },
+        }
+      },
+      animation: {
+        click: "click 150ms ease-in-out",
+      }
     },
 
   },
